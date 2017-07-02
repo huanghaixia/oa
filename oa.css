@@ -1,0 +1,98 @@
+#full{
+    height:1100px;
+	background-image:url(bg.gif);
+	background-repeat :repeat-x;
+}
+#main{
+	height:1090px;
+	width:968px;
+	margin:0 auto;
+	border-bottom:1px solid blue;
+}
+#brand1{
+	width:164px;
+	height:88px;
+	background-image: url(logo.gif);
+	background-repeat: no-repeat;
+	float:left;
+}
+#rec2{
+	width:722px;
+	height:33px;
+	background-image:url(navulbg.gif);
+	background-repeat:repeat-x;
+	margin-top:27px;
+	margin-bottom:28px;
+	float:right;
+}
+#user3{
+	width:212px;
+	height:134px;
+	border: 1px solid blue;
+	/* background-image: url(h3bg.gif); */
+	/* background-repeat: repeat-x; */
+	margin:0px 4px 4px 0px;
+	float:left;
+}
+#dis4{
+	width: 748px;
+	height: 134px;
+	border:1px solid blue;
+	margin:0px 0px 4px 0px;
+	float: right;
+}
+#left{
+	width: 214px;
+	height: 862px;
+	margin:0px 4px 0px 0px;
+	float: left;
+
+}
+#weather1{
+	width: 212px;
+	height: 129px;
+	border:1px solid blue;
+	margin:0px 0px 4px 0px;
+}
+#link2{
+	width: 212px;
+	height: 712px;
+	border:1px solid blue;
+}
+#middle{
+	width: 528px;
+	height: 862px;
+	margin:0px 4px 0px 0px;
+	float: left;
+}
+
+#notice1{
+	width: 526px;
+	height: 170px;
+	border:1px solid blue;
+	margin:0px 0px 4px 0px;
+}
+#daily2{
+	width: 526px;
+	height: 171px;
+	border:1px solid blue;
+}
+#right{
+	width: 218px;
+	height: 862px;
+	/* margin:0px 0px 0px 0px; */
+	float: left;
+}
+
+#paper1{
+	width: 216px;
+	height: 305px;
+	border:1px solid blue;
+	margin:0px 0px 4px 0px;
+}
+#human2{
+	width: 216px;
+	height: 113px;
+	border:1px solid blue;
+}
+
