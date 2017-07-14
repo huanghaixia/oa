@@ -1,7 +1,20 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td { margin:0; padding:0; }
+body { font-size:12px; color:#666; font-family:Verdana, Microsoft YaHei, Simsun; background:#fff; line-height:24px; }
+fieldset, img { border:0; }
+ol, ul { list-style:none; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+em { font-style:normal; }
+input, button, select, textarea { outline:none; }
+textarea { resize:none; } //禁用了文本的拖拉，尤其在谷歌下
+p{ text-align:justify; text-justify:distribute;} //为了使文本段落左右两边对齐
+
+a { color: #fff; text-decoration:none; }
+a:hover { color: #f60; text-decoration:none; }
+
+
 #full{
     height:1100px;
-	background-image:url(bg.gif);
-	background-repeat :repeat-x;
+	background:url(bg.gif) repeat-x;
 }
 #main{
 	height:1090px;
@@ -12,15 +25,13 @@
 #brand1{
 	width:164px;
 	height:88px;
-	background-image: url(logo.gif);
-	background-repeat: no-repeat;
+	background: url(logo.gif) no-repeat;
 	float:left;
 }
 #rec2{
 	width:722px;
 	height:33px;
-	background-image:url(navulbg.gif);
-	background-repeat:repeat-x;
+	background:url(navulbg.gif) repeat-x;
 	margin-top:27px;
 	margin-bottom:28px;
 	float:right;
@@ -72,6 +83,14 @@
 	border:1px solid blue;
 	margin:0px 0px 4px 0px;
 }
+
+#notisubtitle{
+	height: 24px;
+	background:url(h3bg.gif) repeat-x;
+	border-bottom:1px solid blue;
+
+}
+
 #daily2{
 	width: 526px;
 	height: 171px;
@@ -96,3 +115,44 @@
 	border:1px solid blue;
 }
 
+.subtitle{
+	height:24px;
+	background:url(h3bg.gif) repeat-x;
+	background-position:center;
+	margin:0px 1px;
+	padding:1px 0px;
+	border-bottom:1px solid blue;
+	font-family:Mrosoft YaHei;
+	font-weight:600;
+	text-indent: 10px;
+}
+
+
+#nav li{
+	float:left;
+	/* text-align:center; */
+	/* line-height:23px; */
+	font-size: 14px;
+	/* background:green; */
+	width: 100px;
+	height:33px;
+}
+
+#nav a{
+	float:left;
+	color:white;
+	text-decoration:none;
+	line-height:23px;
+	height: 23px;
+	width:89px;
+	margin:5px 5px;
+	text-align:center;
+	/* background: orange; */
+}
+#nav a:hover{
+	color:blue;
+	background-color:white;
+}
+#nav img{
+	float:right;
+}
